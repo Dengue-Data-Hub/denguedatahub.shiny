@@ -1,5 +1,6 @@
 library(shiny)
 library(shinydashboard)
+library(denguedatahub)
 
 ui <- fluidPage(
   title = "Dengue Data Hub",
@@ -7,7 +8,7 @@ ui <- fluidPage(
   # Header section with centered title, blue background, yellow font, and sticker in top-right corner
   tags$div(
     class = "header-bar",
-    style = "background-color: #0077ff; padding: 20px; color: #FFFF00; position: relative;",
+    style = "background-color: #283482; padding: 20px; color: #FFFF00; position: relative;",
     
     # Centered title
     fluidRow(
